@@ -1,0 +1,35 @@
+{
+  "position": "top",
+  "margin-top": 14,
+  "margin-bottom": 0,
+  "layer": "top",
+  "height": 16,
+  "margin-left": 10,
+  "margin-right": 0,
+  "spacing": 0,
+  "include": [
+    "~/.config/waybar/modules.json"
+  ],
+  "modules-center": [
+    "network", 
+    "wlr/taskbar",
+    "group/hardware", 
+  ],
+  "modules-left": [
+    "hyprland/workspaces",
+  ],
+  "modules-right": [ 
+    "hyprland/window",
+    "clock",
+    "pulseaudio",
+  ],
+  "group/hardware": {
+    "orientation": "horizontal",
+    "modules": [
+      "temperature",
+      "disk",
+      "cpu",
+      "memory", 
+    ]
+  }
+}

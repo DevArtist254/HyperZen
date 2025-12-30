@@ -1,0 +1,186 @@
+@import "../../.cache/wal/colors-waybar.css";
+/* //Hello world
+//ll
+//ll */
+* {
+  font-family: "RobotoMono Nerd Font Mono", FontAwesome, Roboto, Helvetica, Arial,
+    sans-serif;
+  border: none;
+  border-radius: 0px;
+}
+
+window#waybar {
+  color: @color3;
+  background: transparent;
+  transition-property: backgound-color;
+  transition-duration: 0.5s;
+}
+
+tooltip {
+  border-radius: 5px;
+  background-color: @foreground;
+  opacity: 0.8;
+  padding: 20px;
+  margin: 0px;
+}
+
+tooltip label {
+  color: @background;
+}
+
+#window {
+  background-color: transparent;
+  margin: 5px 15px 5px 0px;
+  padding: 2px 10px 1px 3px;
+  color: @color3;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+window#waybar.empty #window {
+  background-color: transparent;
+}
+
+#workspaces {
+  background: @foreground;
+  margin: 5px 5px 5px 5px;
+  padding: 4px 1px;
+  border-radius: 5px;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 0.8;
+}
+
+#workspaces button {
+  padding: 0px 10px;
+  margin: 0px 3px;
+  border-radius: 5px;
+  color: @color0;
+  background-color: @color2;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  font-size: 6px;
+}
+
+#workspaces button.active {
+  color: @color1;
+  background-color: @color3;
+  border-radius: 5px;
+  min-width: 30px;
+  background-size: 400% 400%;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+
+#workspaces button:hover {
+  background-color: @foreground;
+  color: @background;
+  border-radius: 5px;
+  min-width: 30px;
+  background-size: 400% 400%;
+}
+
+#taskbar {
+  margin: 3px 5px 3px 0px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#taskbar button {
+  margin: 0;
+  margin-left: 1px;
+  padding: 0px 5px 0px 5px;
+}
+
+#custom-wallpaper {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#clock,
+#pulseaudio {
+  background-color: @background;
+  margin: 3px 15px 3px 0px;
+  padding: 1px 10px 0px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.8;
+  border: 3px solid @foreground;
+}
+
+#pulseaudio.muted {
+  color: @color10;
+  background-color: @foreground;
+}
+
+#clock,
+#pulseaudio {
+  background-color: @foreground;
+  margin: 3px 15px 3px 0px;
+  padding: 1px 10px 0px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.8;
+  color: @background;
+  border: 1px solid @background;
+}
+
+#temperature,
+#disk,
+#memory,
+#cpu {
+  margin: 0px;
+  padding: 0px;
+  font-size: 16px;
+  color: @color3;
+  margin-right: 10px;
+}
+
+#custom-updates {
+    background-color: @foreground;
+    font-size: 16px;
+    color: @background;
+    border-radius: 5px;
+    padding: 2px 10px 0px 10px;
+    margin: 5px 15px 5px 0px;
+    opacity:0.8;
+    border: 1px solid @background;
+}
+
+#custom-updates.green {
+    background-color: @foreground;
+}
+
+#custom-updates.yellow {
+    background-color: #ff9a3c;
+    color: @foreground;
+}
+
+#custom-updates.red {
+    background-color: #dc2f2f;
+    color: @foreground;
+}
+
+
+#network {
+    font-size: 16px;
+    color: @color3;
+    padding: 2px;
+    margin: 3px;
+}
+
+#network.ethernet {
+    color: @color3;
+}
+
+#network.disconnected {
+  background-color: #f53c3c;
+}
+
+#custom-spotify {
+  color: #1db954; /* Spotify green */
+  font-weight: bold;
+  font-size: 16px;
+}

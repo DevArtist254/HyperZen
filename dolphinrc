@@ -1,0 +1,32 @@
+[General]
+ColorScheme=BreezeDark
+Name=Breeze dark
+
+[Icon]
+Theme=breeze-dark
+
+[CompactMode]
+UseSystemFont=false
+ViewFont=Roboto Thin,18,-1,5,250,0,0,0,0,0,0,0,0,0,0,1,Regular
+
+[DetailsMode]
+UseSystemFont=false
+ViewFont=Roboto Light,16,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Regular
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,11,16,14,38,39.148
+
+[IconsMode]
+UseSystemFont=false
+ViewFont=Roboto Thin,16,-1,5,250,0,0,0,0,0,0,0,0,0,0,1,Regular
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,glycin-heif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,glycin-svg,svgthumbnail

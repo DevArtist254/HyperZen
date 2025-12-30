@@ -1,0 +1,10 @@
+[General]
+ColorScheme=BreezeDark
+Name=Breeze dark
+
+[Icon]
+Theme=breeze-dark
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0

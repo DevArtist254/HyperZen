@@ -1,0 +1,19 @@
+[global]
+  font = RobotoMono Nerd Font Mono
+
+  ## Size ##
+  width = 240 
+  height = 350
+  padding = 12
+  horizontal_padding = 12
+  text_icon_padding = 8
+
+  ## Position ##
+  origin = bottom-center
+  offset = 20x20
+  nofication_limit = 5
+
+  ## Pywal Colors ##
+  background = "#1E2B2F"
+  foreground = "#FF7F50"
+  frame_color = "#FFF"

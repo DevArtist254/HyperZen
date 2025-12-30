@@ -1,0 +1,116 @@
+{
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 18,
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-double-click": "close",
+    "ignore-list": [
+      "kitty"
+    ],
+    "app_ids-mapping": {
+      "firefoxdeveloperedition": "firefox-developer-edition"
+    },
+    "rewrite": {
+      "Firefox Web Browser": "Firefox",
+      "Foot Server": "Terminal"
+    }
+  },
+  "custom/wallpaper": {
+    "format": "",
+    "on-click": "~/.config/scripts/wallpaper.sh",
+    "tooltip": false
+  },
+  "hyprland/workspaces": {
+    "on-click": "activate",
+    "all-outputs": true,
+    "format": "{icon}",
+    "format-icons": {
+      "urgent": "",
+      "active": "",
+      "default": ""
+    },
+    "persistent_workspaces": {
+      "*": 5
+    }
+  },
+  "network": {
+    "format": "{ifname}",
+    "format-ethernet": "  {ipaddr} {bandwidthTotalBits}  ",
+    "format-disconnected": "",
+    "tooltip-format": " {ifname} via {gwaddri}",
+    "tooltip-format-ethernet": " Up {bandwidthUpBits} Down {bandwidthDownBits}",
+    "interval": 1,
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-bluetooth": "{volume}% {icon} {format_source}",
+    "format-bluetooth-muted": " {icon} {format_source}",
+    "format-muted": " {format_source}",
+    "format-source": "{volume}% ",
+    "format-source-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        " ",
+        " "
+      ]
+    },
+    "on-click": "pavucontrol"
+  },
+  "custom/updates": {
+    "format": "{}",
+    "tooltip-format": "{}",
+    "escape": true,
+    "return-type": "json",
+    "exec": "~/.config/scripts/updates.sh",
+    "restart-interval": 60,
+    "tooltip": false
+  },
+  "temperature": {
+    "format": "{temperatureC}°C ",
+    "interval": 1,
+    "on-click": "kitty -e htop"
+  },
+  "cpu": {
+    "format": " C {usage}%",
+    "on-click": "kitty -e htop",
+    "interval": 1,
+    "tooltip": true,
+    "tooltip-format": "{avg_frequency} GHz"
+  },
+  "memory": {
+    "format": " M {percentage}%",
+    "on-click": "kitty -e htop",
+    "interval": 1,
+    "tooltip": true,
+    "tooltip-format": "{used} GiB"
+  },
+  "disk": {
+    "interval": 30,
+    "format": " D {percentage_free}% ",
+    "on-click": "kitty -e htop",
+    "path": "/",
+    "tooltip": true,
+    "tooltip-format": "used {used}, free {free} Disk"
+  },
+  "clock": {
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "custom/spotify": {
+    "format-icons": "{icon} {artist} - {title}",
+    "tooltip": false,
+    "return-type": "json",
+    "exec": "~/.config/waybar/scripts/spotify.sh",
+    "interval": 2
+  }
+}

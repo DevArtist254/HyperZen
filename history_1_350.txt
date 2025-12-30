@@ -1,0 +1,350 @@
+2025-11-29 19:50:07sudo systemctl set-default graphical.target 
+2025-11-29 19:50:12reboot
+2025-11-29 19:49:29Hyprland
+2025-11-29 19:52:02sudo systemctl edit sddm.service
+2025-11-29 19:56:04sudo sddm --example-config > /etc/sddm.conf
+2025-11-29 19:56:16sddm --example-config > /etc/sddm.conf
+2025-11-29 19:56:23sudo sddm --example-config > /etc/sddm.conf
+2025-11-29 19:57:16sudo su -
+2025-11-29 20:02:22sudo systemctl edit sddm.service
+2025-11-29 20:02:35sudo -su
+2025-11-29 20:02:38sudo - su
+2025-11-29 20:02:45sudo -
+2025-11-29 20:01:34Hyprland
+2025-11-29 20:02:53sudo su -
+2025-11-29 20:15:49sudo systemctl disable getty@tty1.service
+2025-11-29 20:16:06sudo systemctl stop getty@tty1.service
+2025-11-29 20:16:11sudo systemctl mask getty@tty1.service
+2025-11-29 20:16:47reboot
+2025-11-29 20:04:51Hyprland
+2025-11-29 20:18:15systemctl status getty@tty*.service
+2025-11-29 20:19:47sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf 
+2025-11-29 20:21:19reboot
+2025-11-29 20:23:30sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf
+2025-11-29 20:24:37reboot
+2025-11-29 20:22:15Hyprland
+2025-11-29 20:26:54sudo nvim /usr/lib/sddm/sddm.conf.d/default.conf
+2025-11-29 20:32:42sudo su -
+2025-11-30 00:11:57curl -fsSL https://ollama.com/install.sh | sh
+2025-11-30 00:27:33ollama run deepseek-r1:14b
+2025-11-30 00:49:47shutdown
+2025-11-29 23:32:20Hyprland
+2025-11-30 08:44:41shutdown 
+2025-11-30 11:00:33ollama run deepseek-r1:8b
+2025-11-30 11:05:27sudo nvim /etc/lightdm/lightdm.conf
+2025-11-30 11:48:23cd /usr/share/
+2025-11-30 11:50:46mkdir /usr/share/background
+2025-11-30 11:50:53sudo mkdir /usr/share/background
+2025-11-30 11:59:44ll /usr/share/background/
+2025-11-30 11:43:45nvim .config/scripts/wallpaper.sh 
+2025-11-30 12:14:48nvim ~/Downloads/arch-t/scripts/wallpaper.sh 
+2025-11-30 11:06:23sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+2025-11-30 12:19:22sudo nvim /etc/lightdm/lightdm.conf
+2025-11-30 12:20:31reboot
+2025-11-30 12:21:18sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+2025-11-30 12:22:52reboot
+2025-11-30 12:23:41sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+2025-11-30 12:26:18reboot
+2025-11-30 12:26:56sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+2025-11-30 12:30:05reboot
+2025-11-30 12:30:56sudo nvim /etc/lightdm/lightdm.conf
+2025-11-30 12:44:43reboot
+2025-11-30 12:45:33shutdown 
+2025-12-01 19:38:23echo "Hello world"
+2025-12-01 20:08:38shutdown 
+2025-12-03 04:56:50echo "Hello world"
+2025-12-03 04:59:53cd .config/
+2025-12-03 05:07:02sudo cp ~/.config/wallpaper/133182.png /etc/lightdm/
+2025-12-03 05:08:10sudo cp ~/.config/wallpaper/1338182.png /etc/lightdm/
+2025-12-03 05:00:00nvim
+2025-12-03 05:09:54sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+2025-12-03 05:10:52reboot
+2025-12-03 05:11:39sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+2025-12-03 05:12:28reboot
+2025-12-03 05:18:45sudo nvim /etc/lightdm/lightdm-gtk-greeter.conf 
+2025-12-03 05:21:55reboot
+2025-12-03 05:23:20echo "Hello world"
+2025-12-03 05:24:03nvim ~/Downloads/arch-t/scripts/wallpaper.sh 
+2025-12-03 05:26:39cd .config/
+2025-12-03 05:28:12cd ~
+2025-12-03 05:26:48nvim
+2025-12-03 05:50:44shutd
+2025-12-03 05:50:47shutdown 
+2025-12-03 05:34:42ollama run deepseek-r1:8b
+2025-12-04 04:46:39shutdown 
+2025-12-08 03:58:43ll
+2025-12-08 03:58:55cd Downloads/
+2025-12-08 04:00:46git clone git@github.com:jonasschmedtmann/complete-node-bootcamp
+2025-12-08 04:01:12ll
+2025-12-08 04:01:18cd complete-node-bootcamp/
+2025-12-08 04:02:44cd 4-natours/
+2025-12-08 04:03:32cd after-section-06
+2025-12-08 04:03:48cd code
+2025-12-08 04:04:20mkdir natours
+2025-12-08 04:04:26cd natours/
+2025-12-08 04:07:48cp -v /dev-data ~/code/natours/
+2025-12-08 04:07:58cp -v ./dev-data ~/code/natours/
+2025-12-08 04:08:14cp -vr ./dev-data ~/code/natours/
+2025-12-08 04:09:21cp -vr ./public ~/code/natours/
+2025-12-08 04:04:31nvim
+2025-12-08 04:10:20npm init -y
+2025-12-08 04:13:51nvim
+2025-12-08 04:22:56npm i
+2025-12-08 04:32:11npm --v
+2025-12-08 04:32:14npm i
+2025-12-08 04:32:34npm i express
+2025-12-08 04:33:34npm i dotenv
+2025-12-08 04:33:51npm i morgan
+2025-12-08 04:34:30nvim
+2025-12-08 04:41:30shutdown 
+2025-12-08 04:09:29nvim
+2025-12-09 03:14:10ll
+2025-12-09 03:14:51cd code/
+2025-12-09 03:15:06cd natours/
+2025-12-09 03:24:42..
+2025-12-09 03:26:05cd Downloads/complete-node-bootcamp/4-natours/after-section-06
+2025-12-09 04:31:19npm run start:dec
+2025-12-09 04:31:21npm run start:dev
+2025-12-09 04:32:18npm install --save-dev nodemon
+2025-12-09 04:33:32npm run start:dev
+2025-12-09 05:20:42cd ~/.config/nvim/
+2025-12-09 05:20:45nvim
+2025-12-09 05:22:20cd ~/code/natours/
+2025-12-09 03:15:18nvim
+2025-12-09 03:26:39nvim
+2025-12-09 05:22:26npm run start:dev
+2025-12-09 05:23:42cd ~/code/natours/
+2025-12-09 05:23:47cd ~/.config/nvim/
+2025-12-09 05:24:00nvim
+2025-12-09 05:26:22shutdown 
+2025-12-09 19:13:16nvim
+2025-12-09 19:13:39cd code/
+2025-12-09 19:13:44cd natours/
+2025-12-09 19:14:36..
+2025-12-09 19:15:51cd Downloads/complete-node-bootcamp/
+2025-12-09 19:17:09cd 4-natours/after-section-06
+2025-12-09 19:46:25npm run start:dev
+2025-12-09 19:13:53nvim
+2025-12-09 19:20:01nvim
+2025-12-09 19:57:42shutdown 
+2025-12-10 18:53:53yayf
+2025-12-10 18:56:24history
+2025-12-10 18:58:05ll
+2025-12-10 19:01:23zi
+2025-12-10 19:04:30zi
+2025-12-10 19:05:19nvim
+2025-12-10 19:06:40npm run start:dev
+2025-12-10 19:28:01shutdown 
+2025-12-10 19:05:40nvim
+2025-12-11 03:37:44zi
+2025-12-11 03:40:49nvim
+2025-12-11 03:41:03nvim
+2025-12-11 04:05:38npm run start:dev
+2025-12-11 05:09:58shutdown 
+2025-12-12 12:26:42ll
+2025-12-12 12:26:52cd code/
+2025-12-12 12:26:58cd grokking/
+2025-12-12 12:27:05nvim
+2025-12-12 13:58:29shutdown 
+2025-12-13 04:38:18zi
+2025-12-13 04:38:36zi
+2025-12-13 04:49:36nvim
+2025-12-13 07:31:45shutdown 
+2025-12-13 04:57:54ollama run deepseek-r1:8b
+2025-12-15 20:06:34nvim
+2025-12-15 20:06:42zi
+2025-12-15 20:29:37npm run start:ded
+2025-12-15 20:09:20nvim
+2025-12-15 20:06:56nvim
+2025-12-15 20:44:57cd ~
+2025-12-15 21:41:37shutdown 
+2025-12-16 04:58:56zi
+2025-12-16 04:59:03nvim
+2025-12-16 05:01:28zi
+2025-12-16 05:02:57cd ~
+2025-12-16 05:03:09pavucontrol
+2025-12-16 05:03:28yay -Ss pavucontrol
+2025-12-16 05:17:17sudo yay -Sy pavucontrol
+2025-12-16 05:19:13[200~pulseaudio --version
+2025-12-16 05:19:21pulseaudio --version
+2025-12-16 05:19:42sudo yay -Sy pulseaudio
+2025-12-16 05:20:56pulseaudio --version
+2025-12-16 05:20:59pulseaudio
+2025-12-16 05:01:44nvim
+2025-12-16 05:25:09shutdown 
+2025-12-16 05:25:22shutdown -c
+2025-12-16 05:25:27reboot
+2025-12-16 05:43:47pactl set-sink-volume alsa_output.pci-0000_00_1b.0.analog-stereo 150%
+2025-12-16 05:43:56pactl set-sink-volume  150%
+2025-12-16 05:44:14pactl set-sink-volume 0 150%
+2025-12-16 05:44:20pactl set-sink-volume 0 100%
+2025-12-16 05:54:49sudo yay -Sy pipewire
+2025-12-16 05:55:43pipewire --v
+2025-12-16 05:55:49pipewire --version
+2025-12-16 05:56:02zi
+2025-12-16 05:56:07nvim
+2025-12-16 05:57:28pactl info
+2025-12-16 05:57:55pactl set-sink-volume @DEFAULT_SINK@ 75%
+2025-12-16 05:58:17pactl list sinks | grep -B1 -A9 State:
+2025-12-16 07:14:46zi
+2025-12-16 07:14:52nvim
+2025-12-16 09:23:55zi
+2025-12-16 09:24:06..
+2025-12-16 09:24:20cd after-section-08
+2025-12-16 09:26:59zi
+2025-12-16 09:43:10npm install mongoose slugify
+2025-12-16 09:27:06nvim
+2025-12-16 09:24:23nvim
+2025-12-16 12:35:31qa
+2025-12-16 12:35:45shutdown 
+2025-12-16 12:35:50shutdown 
+2025-12-16 09:44:08npm run start:dev
+2025-12-27 20:53:40zi
+2025-12-27 20:54:18ll
+2025-12-27 20:55:21nvim
+2025-12-27 20:55:38shutdown
+2025-12-28 10:05:08echo "Hello world"
+2025-12-28 10:08:34whoami
+2025-12-28 10:34:07expr 123456 + 7890
+2025-12-28 10:35:50echo $0
+2025-12-28 10:40:39name="lane"
+2025-12-28 10:40:47echo $name
+2025-12-28 10:41:05echo "Hello $name"
+2025-12-28 10:49:36bankname="WorldBanc"
+2025-12-28 10:50:05founded="1969"
+2025-12-28 10:50:17ceo="Jeff Gates"
+2025-12-28 10:52:05echo "$bankname was founded in $founded by $ceo" 
+2025-12-28 11:19:32history
+2025-12-28 11:21:46department="engineering"
+2025-12-28 11:21:53team="ops"
+2025-12-28 11:22:40echo "i work in $department on $team"
+2025-12-28 11:23:09history
+2025-12-28 11:23:21history 455
+2025-12-28 11:23:29history 454
+2025-12-28 11:24:12history
+2025-12-28 11:38:28pwd
+2025-12-28 11:38:43/
+2025-12-28 11:44:07curl -L https://github.com/bootdotdev/worldblanc/archive/heads/main.zip -o worldbanc.zip
+2025-12-28 11:45:53unzip worldbanc.zip 
+2025-12-28 11:46:00ll
+2025-12-28 11:46:37sudo pacman -Sy unzip
+2025-12-28 11:46:58unzip worldbanc.zip 
+2025-12-28 11:47:16ll
+2025-12-28 11:47:55unzip worldbanc.zip 
+2025-12-28 11:48:47rm worldbanc.zip 
+2025-12-28 11:48:55rm -rf worldbanc.zip 
+2025-12-28 11:49:08sudo pacman -Sy trash
+2025-12-28 11:50:18curl -L https://github.com/bootdotdev/worldblanc/archive/refs/heads/main.zip -o worldbanc.zip
+2025-12-28 11:50:25unzip worldbanc.zip 
+2025-12-28 11:50:27ll
+2025-12-28 11:51:45curl -L https://github.com/bootdotdev/worldbanc/archive/refs/heads/main.zip -o worldbanc.zip
+2025-12-28 11:52:10unzip worldbanc.zip 
+2025-12-28 11:52:27rm worldbanc.zip 
+2025-12-28 11:53:00mv worldbanc-main worldbanc
+2025-12-28 11:53:49sudo chown -R ${whoami} worldbanc
+2025-12-28 11:54:12ll
+2025-12-28 11:54:36cd worldbanc/
+2025-12-28 11:54:40ll
+2025-12-28 11:55:19sudo chown -R ${whoami} worldbanc/
+2025-12-28 11:55:22sudo chown -R ${whoami} worldbanc
+2025-12-28 11:57:51sudo chown -R devartist worldbanc
+2025-12-28 11:58:09sudo chmod -R 755 worldbanc
+2025-12-28 11:58:12ll
+2025-12-28 11:58:50cd worldbanc/
+2025-12-28 11:59:00ll
+2025-12-28 12:01:56ls worldbanc
+2025-12-28 12:09:35cd worldbanc/
+2025-12-28 12:10:04cd public/
+2025-12-28 12:10:12cat pr_ideas.txt 
+2025-12-28 13:09:41git add *
+2025-12-28 13:09:47git init
+2025-12-28 13:09:53git add *
+2025-12-28 13:10:56git commit -m "1st commit"
+2025-12-28 13:11:17git branch -M main
+2025-12-28 13:12:21git remote add origin git@github.com:DevArtist254/glowing-barnacle.git
+2025-12-28 13:12:37git push -u origin main
+2025-12-28 13:14:59cd .config/
+2025-12-28 13:29:31cd worldbanc/
+2025-12-28 13:29:43cd private/transactions/
+2025-12-28 13:30:07ll
+2025-12-28 13:30:29cat 2023.csv
+2025-12-28 13:31:16head -n 6 2023.csv 
+2025-12-28 13:31:45tail -n 5 2023.csv 
+2025-12-28 13:35:43less 2023.csv 
+2025-12-28 13:38:40more 2023.csv 
+2025-12-28 13:39:12more -N 153 2023.csv 
+2025-12-28 13:39:17more -N 2023.csv 
+2025-12-28 13:39:27more :help
+2025-12-28 13:39:33more ::help
+2025-12-28 13:46:02cd public/products/credit_cards/
+2025-12-28 13:46:34touch credithistory.txt
+2025-12-28 13:46:35ll
+2025-12-28 13:46:46ls
+2025-12-28 13:53:27cd public/products/
+2025-12-28 13:53:36cd credit_cards/
+2025-12-28 13:54:12mkdir investments
+2025-12-28 13:54:19ll
+2025-12-28 13:56:27mv credit_cards/tbills.txt investments/
+2025-12-28 13:56:37cd investments/
+2025-12-28 13:58:31cd !
+2025-12-28 13:58:34cd ~
+2025-12-28 13:59:11pacman -Ss trash
+2025-12-28 13:59:26sudo pacman -Sy trash-cli
+2025-12-28 13:59:44cd worldbanc/
+2025-12-28 13:59:51cd private/
+2025-12-28 14:00:05cat passwords/passwords.txt 
+2025-12-28 14:06:56rm -rf passwords/
+2025-12-28 14:07:10ll
+2025-12-28 14:11:48cd transactions/
+2025-12-28 14:12:00cd backups/
+2025-12-28 14:12:48cp 2020.csv backups/
+2025-12-28 14:12:54cd backups/
+2025-12-28 14:22:50grep "CRITICAL" private/logs/2024-01-10.log 
+2025-12-28 14:29:19grep "CRITICAL" private/logs/
+2025-12-28 14:30:25grep -r "CRITICAL" private/logs/
+2025-12-28 14:30:33grep "CRITICAL" private/logs/
+2025-12-28 14:59:42find public/products/ -name "joint"
+2025-12-28 15:00:22find public/products/ -name "*joint*"
+2025-12-28 16:14:38sudo whoami
+2025-12-28 16:20:51cd private/
+2025-12-28 16:20:54ll
+2025-12-28 16:22:21chmod -R u=rwx,g=,o= .
+2025-12-28 16:22:26ll
+2025-12-28 16:25:22cd bin/
+2025-12-28 16:25:36chmod -x genids.sh 
+2025-12-28 16:25:47l
+2025-12-28 16:25:48ll
+2025-12-28 16:26:13./genids.sh
+2025-12-28 16:26:59chmod u+x genids.sh 
+2025-12-28 16:27:08./genids.sh
+2025-12-28 17:06:31ll
+2025-12-28 17:16:32cd contacts/
+2025-12-28 17:16:42cat emergency.txt 
+2025-12-28 17:17:28sudo chown -R root contacts
+2025-12-28 17:17:37ll
+2025-12-28 17:20:33rm -r contacts/
+2025-12-28 17:20:53sudo rm -r contacts/
+2025-12-28 17:21:25ll
+2025-12-28 17:29:31cd ~
+2025-12-28 17:29:40which sh
+2025-12-28 17:29:55cat /usr/bin/sh
+2025-12-28 17:35:47cd worldbanc/
+2025-12-28 17:35:56cd private/
+2025-12-28 17:36:03cd bin/
+2025-12-28 17:37:24cat genids.sh 
+2025-12-28 17:45:45cd ~
+2025-12-28 17:45:57nvim .bashrc
+2025-12-28 17:53:50ll
+2025-12-28 17:54:13cat warn.sh
+2025-12-28 17:55:26warn.sh
+2025-12-28 17:55:31./warn.sh
+2025-12-28 17:56:42export WARN_MESSAGE="The auditor is here"
+2025-12-28 17:57:21export WARN_FROM_NAME="Your worst nightmare"
+2025-12-28 17:57:25./warn.sh
+2025-12-28 18:19:17cd ~
+2025-12-28 18:19:28shutdown 
+2025-12-29 09:25:47echo $PATH
+2025-12-29 09:31:24export PATH=""
+2025-12-29 09:31:28LS
+2025-12-29 09:31:41ls
+2025-12-29 09:31:47ll
